@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.CutomerPortal\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.CutomerPortal\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.eShop.Web.CutomerPortal.props",
+      "PackagePath": "build\\eShop.Web.CutomerPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.eShop.Web.CutomerPortal.props",
+      "PackagePath": "buildMultiTargeting\\eShop.Web.CutomerPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.eShop.Web.CutomerPortal.props",
+      "PackagePath": "buildTransitive\\eShop.Web.CutomerPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.eShop.Web.CutomerPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.ShoppingCart.LocalStorage\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.ShoppingCart.LocalStorage\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.eShop.ShoppingCart.LocalStorage.props",
+      "PackagePath": "build\\eShop.ShoppingCart.LocalStorage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.eShop.ShoppingCart.LocalStorage.props",
+      "PackagePath": "buildMultiTargeting\\eShop.ShoppingCart.LocalStorage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.eShop.ShoppingCart.LocalStorage.props",
+      "PackagePath": "buildTransitive\\eShop.ShoppingCart.LocalStorage.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.eShop.ShoppingCart.LocalStorage.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

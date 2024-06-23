@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows,browser
+build_property.RootNamespace = eShop.Web.CutomerPortal
+build_property.RootNamespace = eShop.Web.CutomerPortal
+build_property.ProjectDir = C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.CutomerPortal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.CutomerPortal
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Controls/CustomerFormComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcQ3VzdG9tZXJGb3JtQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Controls/LineItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcTGluZUl0ZW1Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Controls/OrderSummaryComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcT3JkZXJTdW1tYXJ5Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Controls/ProductCardComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcUHJvZHVjdENhcmRDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Controls/ProductItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcUHJvZHVjdEl0ZW1Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Controls/SearchBarComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcU2VhcmNoQmFyQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Pages/OrderConfirmationComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJDb25maXJtYXRpb25Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Pages/PlaceOrderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGxhY2VPcmRlckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Pages/SearchProductComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VhcmNoUHJvZHVjdENvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Pages/ShoppingCartComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvcHBpbmdDYXJ0Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/Pages/ViewProductComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1Byb2R1Y3RDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.CutomerPortal/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

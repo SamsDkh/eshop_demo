@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\eShop.Web.AdminPortal.bundle.scp.css",
+      "PackagePath": "staticwebassets\\eShop.Web.AdminPortal.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.eShop.Web.AdminPortal.props",
+      "PackagePath": "build\\eShop.Web.AdminPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.eShop.Web.AdminPortal.props",
+      "PackagePath": "buildMultiTargeting\\eShop.Web.AdminPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.eShop.Web.AdminPortal.props",
+      "PackagePath": "buildTransitive\\eShop.Web.AdminPortal.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.eShop.Web.AdminPortal.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

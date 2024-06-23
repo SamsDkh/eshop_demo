@@ -1,0 +1,17 @@
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\bin\Debug\net7.0\eShop.StateStore.DI.deps.json
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\bin\Debug\net7.0\eShop.StateStore.DI.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\bin\Debug\net7.0\eShop.StateStore.DI.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\bin\Debug\net7.0\eShop.CoreBusiness.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\bin\Debug\net7.0\eShop.UseCases.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\bin\Debug\net7.0\eShop.UseCases.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\bin\Debug\net7.0\eShop.CoreBusiness.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.StateStore.DI.csproj.AssemblyReference.cache
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.StateStore.DI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.StateStore.DI.AssemblyInfoInputs.cache
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.StateStore.DI.AssemblyInfo.cs
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.StateStore.DI.csproj.CoreCompileInputs.cache
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.St.88046B37.Up2Date
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.StateStore.DI.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\refint\eShop.StateStore.DI.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\eShop.StateStore.DI.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.StateStore.DI\obj\Debug\net7.0\ref\eShop.StateStore.DI.dll

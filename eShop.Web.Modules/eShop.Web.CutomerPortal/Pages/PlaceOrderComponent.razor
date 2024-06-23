@@ -1,0 +1,48 @@
+﻿@page "/placeorder"
+@inject IViewShoppingCartUseCase viewShoppingCartUseCase
+@inject IPlaceOrderUseCase placeOrderUseCase
+@inject NavigationManager navigationManager
+
+<h3>Placing Order</h3>
+<br />
+
+@if (order != null)
+{
+    <div class="row">
+        <div class="col">
+            <CustomerFormComponent OnCustomerInfoSubmitted="HandleCustomerInfoSubmitted">
+            </CustomerFormComponent>
+        </div>
+        <div class="col">
+            <OrderSummaryComponent order="order" HidePlaceOrderButton="true"></OrderSummaryComponent>
+        </div>
+    </div>
+}
+
+@code {
+    private Order order;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            order = await viewShoppingCartUseCase.Execute();
+            StateHasChanged();
+        }
+    }
+
+    private async void HandleCustomerInfoSubmitted(CustomerViewModel customer)
+    {
+        var mapper = new AutoMapper
+        .MapperConfiguration(cfg => cfg.CreateMap<CustomerViewModel, Order>())
+        .CreateMapper();
+        mapper.Map<CustomerViewModel, Order>(customer, order);
+
+        var orderId = await placeOrderUseCase.Execute(order);
+
+        if (string.IsNullOrEmpty(orderId)) { }
+        //ToDo
+
+        navigationManager.NavigateTo($"/orderconfirm/{orderId}");
+    }
+}

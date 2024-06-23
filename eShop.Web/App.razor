@@ -1,0 +1,24 @@
+﻿@using System.Reflection
+<Router AppAssembly="@typeof(App).Assembly" AdditionalAssemblies="@_extraAssemblies">
+    <Found Context="routeData">
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <FocusOnNavigate RouteData="@routeData" Selector="h1" />
+    </Found>
+    <NotFound>
+        <PageTitle>Not found</PageTitle>
+        <LayoutView Layout="@typeof(MainLayout)">
+            <p role="alert">Sorry, there's nothing at this address.</p>
+        </LayoutView>
+    </NotFound>
+</Router>
+
+@code {
+    public List<Assembly> _extraAssemblies = new List<Assembly>
+    {
+        typeof(eShop.Web.CutomerPortal.Pages.SearchProductComponent).Assembly,
+        typeof(eShop.Web.CutomerPortal.Pages.ViewProductComponent).Assembly,
+        typeof(eShop.Web.CutomerPortal.Pages.ShoppingCartComponent).Assembly,
+        typeof(eShop.Web.CutomerPortal.Pages.PlaceOrderComponent).Assembly,
+        typeof(eShop.Web.CutomerPortal.Pages.OrderConfirmationComponent).Assembly
+    };
+}
