@@ -138,6 +138,91 @@
         }
       }
     },
+    "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj",
+        "projectName": "eShop.Web.AdminPortal",
+        "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj",
+        "packagesPath": "C:\\Users\\samyd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\samyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+                "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+              },
+              "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj"
+              },
+              "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+                "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -320,6 +405,9 @@
               "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj": {
                 "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj"
               },
+              "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj": {
+                "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj"
+              },
               "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
                 "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
               },
@@ -328,6 +416,9 @@
               },
               "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj": {
                 "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.HardCoded\\eShop.DataStore.HardCoded.csproj"
+              },
+              "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.SQL.Dapper\\eShop.DataStore.SQL.Dapper.csproj": {
+                "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.SQL.Dapper\\eShop.DataStore.SQL.Dapper.csproj"
               },
               "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj": {
                 "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.ShoppingCart.LocalStorage\\eShop.ShoppingCart.LocalStorage.csproj"
@@ -424,6 +515,85 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.SQL.Dapper\\eShop.DataStore.SQL.Dapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.SQL.Dapper\\eShop.DataStore.SQL.Dapper.csproj",
+        "projectName": "eShop.DataStore.SQL.Dapper",
+        "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.SQL.Dapper\\eShop.DataStore.SQL.Dapper.csproj",
+        "packagesPath": "C:\\Users\\samyd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samyd\\source\\repos\\eShop\\Plugins\\eShop.DataStore.SQL.Dapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\samyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj": {
+                "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

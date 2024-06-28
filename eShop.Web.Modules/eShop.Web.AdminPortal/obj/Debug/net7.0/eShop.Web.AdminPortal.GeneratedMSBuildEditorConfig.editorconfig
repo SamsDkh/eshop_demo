@@ -18,10 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.AdminPortal
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.AdminPortal/Controls/OrderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcT3JkZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.AdminPortal/Controls/OrderListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcT3JkZXJMaXN0Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.AdminPortal/Pages/OrderDetailComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJEZXRhaWxDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.AdminPortal/Pages/OutstandingOrdersComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3V0c3RhbmRpbmdPcmRlcnNDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.AdminPortal/Pages/ProcessedOrderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvY2Vzc2VkT3JkZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.AdminPortal/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/samyd/source/repos/eShop/eShop.Web.Modules/eShop.Web.AdminPortal/Component1.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50MS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-0xeppabfw7

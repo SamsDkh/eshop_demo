@@ -58,3 +58,15 @@ C:\Users\samyd\source\repos\eShop\eShop.Web\obj\Debug\net7.0\ref\eShop.Web.dll
 C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\eShop.StateStore.DI.dll
 C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\eShop.StateStore.DI.pdb
 C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\eShop.Web.AdminPortal.staticwebassets.runtime.json
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\eShop.Web.AdminPortal.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\eShop.Web.AdminPortal.pdb
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\Dapper.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\eShop.DataStore.SQL.Dapper.dll
+C:\Users\samyd\source\repos\eShop\eShop.Web\bin\Debug\net7.0\eShop.DataStore.SQL.Dapper.pdb

@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\eShop.Web.Common.bundle.scp.css",
-      "PackagePath": "staticwebassets\\eShop.Web.Common.bundle.scp.css"
-    },
-    {
       "Id": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },

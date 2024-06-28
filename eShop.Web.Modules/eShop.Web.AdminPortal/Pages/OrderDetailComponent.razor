@@ -1,0 +1,76 @@
+﻿@page "/orderdetail/{id:int}"
+
+@inject IViewOrderDetailUseCase viewOrderDetailUseCase
+@inject IProcessOrderUseCase processOrderUseCase
+@inject NavigationManager NavigationManager
+@attribute [Authorize]
+
+<h3>Order Detail</h3>
+@if (order != null)
+{
+    <p>
+        <b>Customer Info:</b>
+    </p>
+    <p>@order.CustomerName</p>
+    <p>@order.CustomerAddress</p>
+    <p>@order.CustomerCity</p>
+    <p>@order.CustomerStateProvince</p>
+    <p>@order.CustomerCountry</p>
+    <br />
+
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in order.LineItems)
+            {
+                <tr>
+                    <td>@item.Product.Name</td>
+                    <td>@item.Product.Price</td>
+                    <td>@item.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <button type="button" class="btn btn-primary" @onclick="HandleProcessOrder">Mark Order as Processed</button>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; } = 0;
+
+    private Order order;
+
+    private AuthenticationState authenticationState;
+    [CascadingParameter]
+    private Task<AuthenticationState> authenticationStateTask { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        authenticationState = await authenticationStateTask;
+    }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        if (Id > 0)
+            order = viewOrderDetailUseCase.Execute(Id);
+    }
+
+    private void HandleProcessOrder()
+    {
+        if (order != null && authenticationState != null)
+        {
+            processOrderUseCase.Execute(order.OrderId.Value, authenticationState.User.Identity.Name);
+            NavigationManager.NavigateTo("outstandingorders");
+        }
+    }
+}

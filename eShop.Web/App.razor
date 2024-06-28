@@ -1,7 +1,12 @@
 ﻿@using System.Reflection
+<CascadingAuthenticationState>
 <Router AppAssembly="@typeof(App).Assembly" AdditionalAssemblies="@_extraAssemblies">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <AuthorizeRouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+        <NotAuthorized>
+            <LoginComponent></LoginComponent>
+        </NotAuthorized>    
+        </AuthorizeRouteView>
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
@@ -11,7 +16,7 @@
         </LayoutView>
     </NotFound>
 </Router>
-
+</CascadingAuthenticationState>
 @code {
     public List<Assembly> _extraAssemblies = new List<Assembly>
     {
@@ -19,6 +24,9 @@
         typeof(eShop.Web.CutomerPortal.Pages.ViewProductComponent).Assembly,
         typeof(eShop.Web.CutomerPortal.Pages.ShoppingCartComponent).Assembly,
         typeof(eShop.Web.CutomerPortal.Pages.PlaceOrderComponent).Assembly,
-        typeof(eShop.Web.CutomerPortal.Pages.OrderConfirmationComponent).Assembly
+        typeof(eShop.Web.CutomerPortal.Controls.CartComponent).Assembly,
+        typeof(eShop.Web.CutomerPortal.Pages.OrderConfirmationComponent).Assembly,
+        typeof(eShop.Web.AdminPortal.Pages.OutstandingOrdersComponent).Assembly,
+        typeof(eShop.Web.AdminPortal.Pages.ProcessedOrderComponent).Assembly
     };
 }

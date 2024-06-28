@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3okV1XQZ5CjRXQ/XpHzFQvlGoWf83RHYHxiosjVOusA=",
+  "Hash": "GoibGdAiAaqiSYiTxHAdHAWxjNXthe5OsUj/V9s+wnU=",
   "Source": "eShop.Web.Common",
   "BasePath": "_content/eShop.Web.Common",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\bundle\\eShop.Web.Common.styles.css",
-      "SourceId": "eShop.Web.Common",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/eShop.Web.Common",
-      "RelativePath": "eShop.Web.Common.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\bundle\\eShop.Web.Common.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\eShop.Web.Common.bundle.scp.css",
-      "SourceId": "eShop.Web.Common",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/eShop.Web.Common",
-      "RelativePath": "eShop.Web.Common.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\eShop.Web.Common.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\wwwroot\\background.png",
       "SourceId": "eShop.Web.Common",

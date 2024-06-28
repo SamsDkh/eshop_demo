@@ -1,0 +1,17 @@
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\bin\Debug\net7.0\eShop.DataStore.SQL.Dapper.deps.json
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\bin\Debug\net7.0\eShop.DataStore.SQL.Dapper.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\bin\Debug\net7.0\eShop.DataStore.SQL.Dapper.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\bin\Debug\net7.0\eShop.CoreBusiness.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\bin\Debug\net7.0\eShop.UseCases.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\bin\Debug\net7.0\eShop.UseCases.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\bin\Debug\net7.0\eShop.CoreBusiness.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.DataStore.SQL.Dapper.csproj.AssemblyReference.cache
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.DataStore.SQL.Dapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.DataStore.SQL.Dapper.AssemblyInfoInputs.cache
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.DataStore.SQL.Dapper.AssemblyInfo.cs
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.DataStore.SQL.Dapper.csproj.CoreCompileInputs.cache
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.Da.95D09FE6.Up2Date
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.DataStore.SQL.Dapper.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\refint\eShop.DataStore.SQL.Dapper.dll
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\eShop.DataStore.SQL.Dapper.pdb
+C:\Users\samyd\source\repos\eShop\Plugins\eShop.DataStore.SQL.Dapper\obj\Debug\net7.0\ref\eShop.DataStore.SQL.Dapper.dll

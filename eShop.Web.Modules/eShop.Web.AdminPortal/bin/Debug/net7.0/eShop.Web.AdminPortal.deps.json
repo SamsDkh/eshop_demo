@@ -8,7 +8,11 @@
     ".NETCoreApp,Version=v7.0": {
       "eShop.Web.AdminPortal/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.20"
+          "Microsoft.AspNetCore.Components.Authorization": "3.1.7",
+          "Microsoft.AspNetCore.Components.Web": "7.0.20",
+          "eShop.CoreBusiness": "1.0.0",
+          "eShop.UseCases": "1.0.0",
+          "eShop.Web.Common": "1.0.0"
         },
         "runtime": {
           "eShop.Web.AdminPortal.dll": {}
@@ -40,6 +44,18 @@
         }
       },
       "Microsoft.AspNetCore.Components.Analyzers/7.0.20": {},
+      "Microsoft.AspNetCore.Components.Authorization/3.1.7": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "7.0.20",
+          "Microsoft.AspNetCore.Components": "7.0.20"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37213"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/7.0.20": {
         "dependencies": {
           "Microsoft.AspNetCore.Components": "7.0.20"
@@ -136,6 +152,27 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "eShop.CoreBusiness/1.0.0": {
+        "runtime": {
+          "eShop.CoreBusiness.dll": {}
+        }
+      },
+      "eShop.UseCases/1.0.0": {
+        "dependencies": {
+          "eShop.CoreBusiness": "1.0.0"
+        },
+        "runtime": {
+          "eShop.UseCases.dll": {}
+        }
+      },
+      "eShop.Web.Common/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.20"
+        },
+        "runtime": {
+          "eShop.Web.Common.dll": {}
+        }
       }
     }
   },
@@ -165,6 +202,13 @@
       "sha512": "sha512-C1x0/pPILayW1t/pG6Phq5Yf1TtCqxI+6mVqCV3I+iDPQ2POsQdNx2Cd0PvjlJMDyVoS3XR2f05B6XmiFJ7WDg==",
       "path": "microsoft.aspnetcore.components.analyzers/7.0.20",
       "hashPath": "microsoft.aspnetcore.components.analyzers.7.0.20.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Authorization/3.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mAqXaLhS9uw2MB3d4EbNk6XdqvxofWtrAOG2rJCv2fIKCKDeyaFioG2LCjFMw6ddpoW2VH54IJLtwvCW0ramcQ==",
+      "path": "microsoft.aspnetcore.components.authorization/3.1.7",
+      "hashPath": "microsoft.aspnetcore.components.authorization.3.1.7.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Components.Forms/7.0.20": {
       "type": "package",
@@ -235,6 +279,21 @@
       "sha512": "sha512-jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
       "path": "system.io.pipelines/7.0.0",
       "hashPath": "system.io.pipelines.7.0.0.nupkg.sha512"
+    },
+    "eShop.CoreBusiness/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eShop.UseCases/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "eShop.Web.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

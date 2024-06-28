@@ -43,6 +43,23 @@
           "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets": {}
         }
       },
+      "Microsoft.AspNetCore.Components.Authorization/3.1.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "3.1.7",
+          "Microsoft.AspNetCore.Components": "3.1.7"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Authorization.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Components.Forms/7.0.20": {
         "type": "package",
         "dependencies": {
@@ -207,6 +224,42 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "eShop.CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/eShop.CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.CoreBusiness.dll": {}
+        }
+      },
+      "eShop.UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "eShop.CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eShop.UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.UseCases.dll": {}
+        }
+      },
+      "eShop.Web.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "7.0.20"
+        },
+        "compile": {
+          "bin/placeholder/eShop.Web.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eShop.Web.Common.dll": {}
+        }
       }
     }
   },
@@ -259,6 +312,23 @@
         "buildTransitive/netstandard2.0/Microsoft.AspNetCore.Components.Analyzers.targets",
         "microsoft.aspnetcore.components.analyzers.7.0.20.nupkg.sha512",
         "microsoft.aspnetcore.components.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Components.Authorization/3.1.7": {
+      "sha512": "mAqXaLhS9uw2MB3d4EbNk6XdqvxofWtrAOG2rJCv2fIKCKDeyaFioG2LCjFMw6ddpoW2VH54IJLtwvCW0ramcQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.components.authorization/3.1.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.txt",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Components.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Components.Authorization.xml",
+        "microsoft.aspnetcore.components.authorization.3.1.7.nupkg.sha512",
+        "microsoft.aspnetcore.components.authorization.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Components.Forms/7.0.20": {
@@ -535,11 +605,30 @@
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "eShop.CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../../eShop.CoreBusiness/eShop.CoreBusiness.csproj",
+      "msbuildProject": "../../eShop.CoreBusiness/eShop.CoreBusiness.csproj"
+    },
+    "eShop.UseCases/1.0.0": {
+      "type": "project",
+      "path": "../../eShop.UseCases/eShop.UseCases.csproj",
+      "msbuildProject": "../../eShop.UseCases/eShop.UseCases.csproj"
+    },
+    "eShop.Web.Common/1.0.0": {
+      "type": "project",
+      "path": "../eShop.Web.Common/eShop.Web.Common.csproj",
+      "msbuildProject": "../eShop.Web.Common/eShop.Web.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.AspNetCore.Components.Web >= 7.0.20"
+      "Microsoft.AspNetCore.Components.Authorization >= 3.1.7",
+      "Microsoft.AspNetCore.Components.Web >= 7.0.20",
+      "eShop.CoreBusiness >= 1.0.0",
+      "eShop.UseCases >= 1.0.0",
+      "eShop.Web.Common >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -574,7 +663,17 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj": {
+              "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.CoreBusiness\\eShop.CoreBusiness.csproj"
+            },
+            "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj": {
+              "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.UseCases\\eShop.UseCases.csproj"
+            },
+            "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj": {
+              "projectPath": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -592,6 +691,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Components.Authorization": {
+            "target": "Package",
+            "version": "[3.1.7, )"
+          },
           "Microsoft.AspNetCore.Components.Web": {
             "target": "Package",
             "version": "[7.0.20, )"

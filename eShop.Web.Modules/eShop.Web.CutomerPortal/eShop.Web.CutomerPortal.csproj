@@ -6,10 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Controls\CartComponent.razor" />
-  </ItemGroup>
-
 
   <ItemGroup>
     <SupportedPlatform Include="browser" />
@@ -29,16 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <_ContentIncludedByDefault Remove="Controls\CartComponent.razor" />
     <_ContentIncludedByDefault Remove="Controls\ProductCardComponent.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Controls\CartComponent.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Controls\CartComponent.razor" />
   </ItemGroup>
 
 </Project>

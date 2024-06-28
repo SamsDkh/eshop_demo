@@ -14,9 +14,7 @@ C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\n
 C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.eShop.Web.Common.props
 C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.eShop.Web.Common.props
 C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\scopedcss\Component1.razor.rz.scp.css
 C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\scopedcss\bundle\eShop.Web.Common.styles.css
-C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\scopedcss\projectbundle\eShop.Web.Common.bundle.scp.css
 C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\eShop.Web.Common.dll
 C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\refint\eShop.Web.Common.dll
 C:\Users\samyd\source\repos\eShop\eShop.Web.Modules\eShop.Web.Common\obj\Debug\net7.0\eShop.Web.Common.pdb

@@ -1,11 +1,22 @@
 {
   "Version": 1,
-  "Hash": "ni2uzKt4VpbSepbemsvjXqCHB6YRruvYlCszicHgga4=",
+  "Hash": "E0bUOc8Yj4WEj27hEggJaSfrEzZf8prLiC4ykHAb7AY=",
   "Source": "eShop.Web",
   "BasePath": "_content/eShop.Web",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\eShop.Web.AdminPortal.csproj",
+      "Version": 2,
+      "Source": "eShop.Web.AdminPortal",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
     {
       "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\eShop.Web.Common.csproj",
       "Version": 2,
@@ -49,6 +60,13 @@
       "Pattern": "**"
     },
     {
+      "Name": "eShop.Web.AdminPortal\\wwwroot",
+      "Source": "eShop.Web.AdminPortal",
+      "ContentRoot": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\wwwroot\\",
+      "BasePath": "_content/eShop.Web.AdminPortal",
+      "Pattern": "**"
+    },
+    {
       "Name": "eShop.Web.Common\\wwwroot",
       "Source": "eShop.Web.Common",
       "ContentRoot": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\wwwroot\\",
@@ -72,23 +90,42 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\eShop.Web.Common.bundle.scp.css",
-      "SourceId": "eShop.Web.Common",
+      "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\wwwroot\\background.png",
+      "SourceId": "eShop.Web.AdminPortal",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/eShop.Web.Common",
-      "RelativePath": "eShop.Web.Common.bundle.scp.css",
+      "ContentRoot": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\wwwroot\\",
+      "BasePath": "_content/eShop.Web.AdminPortal",
+      "RelativePath": "background.png",
       "AssetKind": "All",
-      "AssetMode": "Reference",
+      "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\eShop.Web.Common.bundle.scp.css"
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "eShop.Web.AdminPortal",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.AdminPortal\\wwwroot\\",
+      "BasePath": "_content/eShop.Web.AdminPortal",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
     },
     {
       "Identity": "C:\\Users\\samyd\\source\\repos\\eShop\\eShop.Web.Modules\\eShop.Web.Common\\wwwroot\\background.png",
